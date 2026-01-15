@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile | Sahil Ashok Danekar</title>
+
+
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body background and base typography */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #e3f2fd, #f5f7fa);
+            color: #333;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #0d47a1;
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content container */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Section styling */
+        section {
+            background-color: #ffffff;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #0d47a1;
+        }
+
+        /* Profile image */
+        img {
+            display: block;
+            margin: 15px 0;
+            border-radius: 50%;
+            border: 4px solid #0d47a1;
+        }
+
+        /* Skills list */
+        ul {
+            margin-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0d47a1;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive improvements */
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 8px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sahil Ashok Danekar</h1>
+        <p>Web Developer | Professional Profile</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+            <button onclick="window.scrollTo(0,document.body.scrollHeight)"><h2> click here : Down </h2></button>
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            
+            <p>
+                I am a dedicated web developer focused on creating clean,
+                accessible, and professional web experiences using modern HTML
+                and CSS standards.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>Diploma in Computer Enginnering</h3>
+                <p>Marathwada Mitra Mandal's Polytechnic — 2024</p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>1.C++ and Data Structure using C</li>
+                <li>2.Python</li>
+                <li>3.Java</li>
+                <li>4.HTML and CSS</li>
+				<li>5.Problem Solving</li>
+            </ul>
+        </section>
+             
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:danekarsahil28@gmail.com">danekarsahil28@gmail.com</a></p>
+            <p>Phone: +91 9022371205</p>
+        </section>
+         <button onclick="window.scrollTo(0,document.body.scrollHeight)"><h2> click here : Up </h2></button>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sahil Danekar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
